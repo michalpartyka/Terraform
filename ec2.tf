@@ -41,7 +41,7 @@ resource "aws_security_group" "sg_pub" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
-
+/*
 # output
 
 output "alb_dns_name" {
@@ -51,3 +51,4 @@ output "alb_dns_name" {
 output "ami_id" {
   value = data.aws_ami.latest_ubuntu.image_id
 }
+*/
